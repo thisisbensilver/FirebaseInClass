@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         myDatabase = FirebaseDatabase.getInstance();
         //Setting a parent so I can keep multiple tables in one DB.
         myRef = myDatabase.getReference(dbTable);
-        // myRefChild = myRef.child(dbTable);
 
 
     }
